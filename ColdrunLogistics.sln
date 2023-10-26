@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColdrunLogistics.Api", "ColdrunLogistics\ColdrunLogistics.Api.csproj", "{109C59A9-AB42-4508-9E6F-BD4B643835F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColdrunLogistics.Api.Models", "ColdrunLogistics.Api.Models\ColdrunLogistics.Api.Models.csproj", "{2E305BEB-4941-441B-A01C-280436A9BDF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColdrunLogistics.Infrastructure", "ColdrunLogistics.Data.Access\ColdrunLogistics.Infrastructure.csproj", "{264DB32F-E20D-455C-899B-421494DE2F2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColdrunLogistics.Models", "ColdrunLogistics.Data.Model\ColdrunLogistics.Models.csproj", "{64BFE3A9-C974-4516-AAAC-64DDFD0AB1B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColdrunLogistics.Core", "ColdrunLogistics.Core\ColdrunLogistics.Core.csproj", "{E9A61A33-EAF8-4151-BD09-6649D14758B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColdrunLogistics.UnitTests", "ColdrunLogistics.Core.TruckServiceTests\ColdrunLogistics.UnitTests.csproj", "{FBA1AEA9-5F70-4726-9836-9BAC3C78CE05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{109C59A9-AB42-4508-9E6F-BD4B643835F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109C59A9-AB42-4508-9E6F-BD4B643835F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109C59A9-AB42-4508-9E6F-BD4B643835F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{109C59A9-AB42-4508-9E6F-BD4B643835F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E305BEB-4941-441B-A01C-280436A9BDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E305BEB-4941-441B-A01C-280436A9BDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E305BEB-4941-441B-A01C-280436A9BDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E305BEB-4941-441B-A01C-280436A9BDF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{264DB32F-E20D-455C-899B-421494DE2F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264DB32F-E20D-455C-899B-421494DE2F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264DB32F-E20D-455C-899B-421494DE2F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264DB32F-E20D-455C-899B-421494DE2F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64BFE3A9-C974-4516-AAAC-64DDFD0AB1B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64BFE3A9-C974-4516-AAAC-64DDFD0AB1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64BFE3A9-C974-4516-AAAC-64DDFD0AB1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64BFE3A9-C974-4516-AAAC-64DDFD0AB1B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9A61A33-EAF8-4151-BD09-6649D14758B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A61A33-EAF8-4151-BD09-6649D14758B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A61A33-EAF8-4151-BD09-6649D14758B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A61A33-EAF8-4151-BD09-6649D14758B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA1AEA9-5F70-4726-9836-9BAC3C78CE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA1AEA9-5F70-4726-9836-9BAC3C78CE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA1AEA9-5F70-4726-9836-9BAC3C78CE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA1AEA9-5F70-4726-9836-9BAC3C78CE05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AF1A645-07C7-44AE-9998-3244BCD7E3B2}
+	EndGlobalSection
+EndGlobal
