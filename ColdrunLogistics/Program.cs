@@ -1,9 +1,17 @@
+using ColdrunLogistics.Core.Interfaces;
+using ColdrunLogistics.Core.Services;
+using ColdrunLogistics.Data;
+using ColdrunLogistics.Data.Models.Trucks;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+
+builder.Services.AddMemoryCache();
+
+builder.Services.AddScoped<ITruckService, TruckService>();
+builder.Services.AddScoped<ITruckRepository, TruckRepository>();
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

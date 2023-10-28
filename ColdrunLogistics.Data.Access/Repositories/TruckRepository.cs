@@ -6,13 +6,13 @@ using ColdrunLogistics.Models.Trucks;
 
 namespace ColdrunLogistics.Data
 {
-    internal class TruckRepository : ITruckRepository
+    public class TruckRepository : ITruckRepository
     {
         private LogisticsMockContext _context;
 
-        public TruckRepository(LogisticsMockContext context)
+        public TruckRepository()
         {
-            _context = context;
+            _context = new LogisticsMockContext();
         }
 
         public void CreateTruck(Truck truck)
